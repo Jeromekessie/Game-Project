@@ -1,0 +1,384 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jerome" at "2026-09-23T06:34:30.8376592Z"
+Built from '6000.5/staging' branch; Version is '6000.5.0f1 (88b47c5e7076) revision 8959100'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32720 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-23T06:34:30Z
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-jerome"
+[Licensing::IpcConnector] LicenseClient-jerome channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-jerome-6000.5.0 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 10316)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jerome-6000.5.0" at "2026-09-23T06:34:33.8452888Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 10316, path: "D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              5d3c1ec6966a493abc025c9be473e919
+  Correlation Id:          d9374c304e2a9fc381f6acc4ab8312dc
+  External correlation Id: 933901881382106322
+  Machine Id:              5itWOFJhPfiZcAk/l1WtudGMPbs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jerome-6000.5.0" (connect: 1.94s, validation: 0.07s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jerome-6000.5.0-notifications" at "2026-09-23T06:34:33.965269Z"
+[Licensing::Module] Connected to LicensingClient (PId: 10316, launch time: 0.01, total connection time: 2.06s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token WbTd1rFpMB...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 948996-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.20s
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\6000.5.0f1\Editor\Unity.exe
+-projectpath
+J:\Dragon Game Demo
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-jerome
+-hubSessionId
+fc36d2a4-2c82-4cf7-b91a-7e7126981a38
+-accessToken
+WbTd1rFpMBrJYap639rO3tU7_ut8J8O06rPLEcN3JV0003f
+Successfully changed project path to: J:\Dragon Game Demo
+J:/Dragon Game Demo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [51552]  Target information:
+
+Player connection [51552]  * "[IP] 10.0.0.130 [Port] 55504 [Flags] 2 [Guid] 2727479657 [EditorId] 2727479657 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PDGDSMM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [51552] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [51552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-60180" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.0f1 (88b47c5e7076)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path J:/Dragon Game Demo/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce GTX 1650 SUPER
+[D3D12 Device Filter] Driver Version: 32.0.15.9186
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 3930 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:          NVIDIA
+    VRAM:            3930 MB
+    App VRAM Budget: 3340 MB
+    Driver:          32.0.15.9186
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/Program Files/Unity Hub/6000.5.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.109822 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.523 seconds
+Domain Reload Profiling: 7210ms
+	BeginReloadAssembly (804ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (139ms)
+	initialDomainReloadingComplete (390ms)
+	LoadAllAssembliesAndSetupDomain (1289ms)
+		LoadAssemblies (650ms)
+		AnalyzeDomain (935ms)
+			TypeCache.Refresh (920ms)
+				TypeCache.ScanAssembly (791ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4531ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (1195ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (831ms)
+			ProcessInitializeOnLoadMethodAttributes (1839ms)
+			EditorAssembliesLoaded (18ms)
+		ExecutionOrderSort2 (17ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 37 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.modules.accessibility@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: J:\Dragon Game Demo\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.11 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: J:\Dragon Game Demo
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 38.5381ms
+Starting: D:\Program Files\Unity Hub\6000.5.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: J:/Dragon Game Demo
+ExitCode: 0 Duration: 0s506ms
+*** Tundra build success (0.34 seconds), 0 items updated, 171 evaluated
+AssetDatabase: script compilation time: 2.963195s
+Begin MonoManager ReloadAssembly
+Total cache size 96731472
+Total cache size after purge 96731472, took 00:00:00.2693112
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.682 seconds
+Domain Reload Profiling: 1656ms
+	BeginReloadAssembly (622ms)
+		DisableScriptedObjects (216ms)
+		CreateAndSetChildDomain (131ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (267ms)
+		LoadAssemblies (197ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (29ms)
+			BuildScriptInfoCaches (7ms)
+	FinalizeReload (686ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Starting new worker id: 0 with log in J:/Dragon Game Demo/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=ee36a52d851a28c4cb15b1183dd94db2): Total: 5.967 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1630 ms
+		Asset DB Callback time: managed=137 ms, native=221 ms
+		Scripting: domain reloads=1, domain reload time=998 ms, compile time=2967 ms, other=7 ms
+		Project Asset Count: scripts=113, non-scripts=81
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 196.354ms
+	ApplyChangesToAssetFolders: 19.555ms
+	Scan: 244.052ms
+	Collect global state as custom dependencies: 60.581ms
+	CategorizeScriptCompilationAssets: 19.435ms
+	ProcessAssetsWithTransientArtifactChanges: 79.126ms
+	CategorizeAssets: 2.889ms
+	CompileScripts: 2967.371ms
+	ImportOutOfDateAssets: 712.456ms (689.168ms without children)
+		UnloadImportedAssets: 0.099ms
+		ImportSchedulerStart: 23.147ms
+	PostProcessAllAssets: 137.816ms
+		MonoPostProcessAllAssets: 137.742ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 124.187ms
+			SyncVS.PostprocessSyncProject 1.571ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.021ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.415ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.394ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.192ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.093ms
+	UnloadStreamsBegin: 1.705ms
+	GenerateScriptTypeHashes: 0.838ms
+	GenerateScriptTypeSerializationHashes: 2.283ms
+	Untracked: 1494.542ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.60 seconds
+Scanning for USB devices : 9.143ms
+Initializing Unity extensions:
+Worker ready: AssetImportWorkerHW0 0
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Dragon Game Demo
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (0.5 MB). Loaded Objects now: 749.
+Memory consumption went from 210.3 MB to 209.8 MB.
+Total: 5.600800 ms (FindLiveObjects: 0.068900 ms CreateObjectMapping: 0.017500 ms MarkObjects: 5.216700 ms  DeleteObjects: 0.294000 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout J:\Dragon Game Demo\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/jerome/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 34.288 seconds
+	Project init time: 				29.822 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.317 seconds
+		Asset Database init time: 		2.074 seconds
+		Global illumination init time: 	0.109 seconds
+		Assemblies load time: 			9.133 seconds
+		Unity extensions init time: 	0.026 seconds
+		Asset Database refresh time: 	6.008 seconds
+	Scene opening time: 			3.592 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790145305041,"processId":60180,"projectLoad":34.287689300000007,"projectInit":29.8220448,"templateInit":0.0,"packageManagerInit":0.3170768,"assetDatabaseInit":2.0738985,"globalIlluminationInit":0.1094945,"assembliesLoad":9.1331473,"unityExtensionsInit":0.0256239,"assetDatabaseRefresh":6.0076784,"sceneOpening":3.5917817}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790145305075,"processId":60180,"editorVersion":"6000.5.0f1 (88b47c5e7076)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=f3dbb553ec279c145b9c801c7a913a33): Total: 0.029 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/jerome/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.021s, timestamps: [41.342 - 41.363]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "WbTd1rFp"... (expires: 2026-09-23T07:07:17Z)
+Android Extension - Scanning For ADB Devices 2917 ms
+Android Extension - Scanning For ADB Devices 341 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 386 ms
+Android Extension - Scanning For ADB Devices 341 ms
+MonoPathRemapper: Attempts to remap: 3925; Successful remaps: 364
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout J:\Dragon Game Demo\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/jerome/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 1.1238163 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-jerome-6000.5.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-jerome-6000.5.0 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 000000000000B8E0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000DEAC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000DEAC, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4708
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790145333938,"processId":60180,"allocatedMemory":46399410,"memoryLabels":[{"Default":181056},{"Permanent":15516},{"NewDelete":67277},{"Thread":4205176},{"Manager":32168},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":847772},{"Material":24},{"GfxDevice":61400},{"Animation":952},{"Audio":1256},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":158920},{"Input":42840},{"JobScheduler":256},{"TextLib":18966},{"Mono":48},{"ScriptingNativeRuntime":689868},{"BaseObject":1676045},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":4021},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9978},{"StaticString":3808},{"Utility":2673426},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7096},{"WebRequest":8210},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33042784},{"Camera":4057},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":920},{"Hierarchy":1176},{"UIElements":1170024},{"CoreStats":13688},{"Identifiers":13536},{"Gui":267608},{"EditorUtility":183157},{"VersionControl":8},{"Undo":931},{"AssetDatabase":493613},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35336},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":280},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2896},{"Windowing":456},{"Licensing":888},{"AssetReference":32},{"IPCStream":32}]}

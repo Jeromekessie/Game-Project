@@ -1,0 +1,24 @@
+[2026-09-23T06:34:35.485Z][INFO] Command-line: 'D:\\Program Files\\Unity Hub\\6000.5.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 60180 --ipc-path Unity-Upm-60180 -l 2 --log-file 'J:\\Dragon Game Demo/Logs/upm.log'
+[2026-09-23T06:34:35.524Z][INFO] IPC server started (IPC path=Unity-Upm-60180).
+[2026-09-23T06:34:35.525Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-60180.
+[2026-09-23T06:34:48.111Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T06:34:49.685Z][INFO] project:list-packages --> 200 (1573 ms)
+[2026-09-23T06:34:49.849Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-23T06:34:49.855Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-09-23T06:34:49.900Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T06:34:49.972Z][INFO] project:list-packages --> 200 (72 ms)
+[2026-09-23T06:34:56.557Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T06:34:56.581Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T06:34:56.679Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-23T06:34:56.707Z][INFO] config:project:get-registries --> 200 (29 ms)
+[2026-09-23T06:34:56.707Z][INFO] project:list-packages --> 200 (150 ms)
+[2026-09-23T06:34:56.737Z][INFO] project:list-packages --> 200 (156 ms)
+[2026-09-23T06:35:04.459Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T06:35:04.555Z][INFO] project:list-packages --> 200 (95 ms)
